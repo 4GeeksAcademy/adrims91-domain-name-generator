@@ -11,7 +11,7 @@ window.onload = function() {
   let pronoun = ["the", "our"];
   let adj = ["great", "big"];
   let noun = ["jogger", "racoon"];
-  const myFunction = (arr1, arr2, arr3) => {
+  const domainGenerator = (arr1, arr2, arr3) => {
     for (let i = 0; i < arr1.length; i++) {
       for (let x = 0; x < arr2.length; x++) {
         for (let j = 0; j < arr3.length; j++) {
@@ -20,5 +20,5 @@ window.onload = function() {
       }
     }
   };
-  myFunction(pronoun, adj, noun);
+  domainGenerator(pronoun, adj, noun);
 };
